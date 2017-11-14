@@ -70,10 +70,10 @@ inConfig(Test)(Seq(
 ))
 
 concurrentRestrictions in Global := Seq(
-  Tags.limit(Tags.CPU, 5),
-  Tags.limit(Tags.Network, 5),
-  Tags.limit(Tags.Test, 5),
-  Tags.limitAll(5)
+  Tags.limit(Tags.CPU, 4),
+  Tags.limit(Tags.Network, 4),
+  Tags.limit(Tags.Test, 4),
+  Tags.limitAll(4)
 )
 
 Defaults.itSettings
